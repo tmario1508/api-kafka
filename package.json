@@ -1,0 +1,26 @@
+{
+  "name": "kafka_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "nodemon dist/",
+    "geturl": "nodemon dist/geturl.js",
+    "dev": "nodemon dist/index.js",
+    "test": "nodemon test.js",
+    "producer": "nodemon dist/producer.js",
+    "consumer": "nodemon dist/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.941.0",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^1.15.0"
+  },
+  "devDependencies": {
+    "@types/kafka-node": "^3.0.0",
+    "@types/node": "^16.0.1"
+  }
+}
